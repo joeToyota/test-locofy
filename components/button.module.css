@@ -1,0 +1,35 @@
+.icon {
+  height: 1.875rem;
+  width: 2rem;
+  position: relative;
+}
+.xxxxx {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+}
+.master {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.button {
+  border-radius: var(--br-mini) var(--br-mini) 0px 0px;
+  background-color: var(--color-teal);
+  height: 2.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-backgroung-color);
+  font-family: var(--font-outfit);
+}

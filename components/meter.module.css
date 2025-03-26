@@ -1,0 +1,41 @@
+.mdbC2a {
+  position: relative;
+}
+.meterName {
+  align-self: stretch;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem var(--padding-5xs);
+}
+.normalIcon {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+}
+.iconnormal {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.36);
+  border-radius: var(--br-281xl);
+  background: linear-gradient(180deg, var(--primary-backgroung-color), #999);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.meter {
+  width: 8.688rem;
+  height: 1.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--primary-backgroung-color);
+  font-family: var(--font-inter);
+}

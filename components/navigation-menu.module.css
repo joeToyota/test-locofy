@@ -1,0 +1,13 @@
+.navigationMenu {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0rem 0rem 0rem var(--padding-9xl);
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-backgroung-color);
+  font-family: var(--font-outfit);
+}

@@ -1,0 +1,23 @@
+.vectorIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.map {
+  width: 50.125rem;
+  height: 26.563rem;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 212.5px);
+  left: calc(50% - 401px);
+  background-color: var(--primary-backgroung-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+}
